@@ -30,7 +30,12 @@ const Job = ({ job }) => {
           <img
             src={job.company_logo}
             alt={job.company}
-            style={{ maxWidth: '200px', maxHeight: '50px' }}
+            style={{
+              width: '100%',
+              maxWidth: '200px',
+              height: '100%',
+              maxHeight: '50px',
+            }}
             className="d-none d-md-block"
           />
         </div>
