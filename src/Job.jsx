@@ -31,7 +31,6 @@ const Job = ({ job }) => {
             src={job.company_logo}
             alt={job.company}
             style={{
-              width: '100%',
               maxWidth: '200px',
               height: '100%',
               maxHeight: '50px',
